@@ -138,8 +138,8 @@ class Config:
     TRAIN_VI = '/kaggle/input/train-and-test/train.vi.txt'
 
     # Checkpoint Settings
-    RESUME = True  # Set True to continue from checkpoint
-    RESUME_PATH = '/kaggle/input/checkpoint/vlsp_checkpoint_last.pth'
+    RESUME = False  # Set to "False" during the first training session, Set to "True" to continue from checkpoint
+    RESUME_PATH = '' # example:'/kaggle/input/checkpoint/vlsp_checkpoint_last.pth'
     SAVE_PATH = '/kaggle/working/vlsp_checkpoint_last.pth'
     BEST_MODEL_PATH = '/kaggle/working/vlsp_best_model.pth'
 
